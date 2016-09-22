@@ -1,0 +1,151 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+section{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+p{
+	text-align : justify ;
+	padding : 12px ;
+	color: white;
+}
+.introduction{
+	font-size: 40px;
+	font-family: arial;	
+}
+header > img{
+	height: 600px;
+	width: 100%;
+}
+body#page1{
+	background-image: url(http://subliminal-conseil.com/wp-content/uploads/2014/06/conseil-personnel@2x.jpg);
+	color : white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#fig_profil {
+	border: 2px solid white;
+	padding: 5px;
+	display: flex;
+}
+address{
+	height: 100%;
+}
+#jpg_profil {
+	border: 2px solid white;
+	margin: 2px;
+	border-radius: 100%;
+	padding: 2px;
+}
+.p_profil {
+	background-color: rgba(255, 97, 255, 0.2);
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: cursive;
+	font-size: 17px;
+}
+#p1_profil {
+	margin-top: 1.5%;
+}
+#p2_profil {
+	font-family: 'Dancing Script';
+	background-color: rgba(0,0,0,0.0);
+	font-size: 35px;
+	vertical-align: bottom;
+	margin-bottom: 40px;
+	margin-left: 150px;
+}
+#pince_a_linge {
+	position: relative;
+	min-height: 322px;
+}
+#mes_carousel{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	height: 100%;
+}
+img.profil {
+	width: 100%;
+}
+#image_1 { 
+	width: 100%;
+	max-height: 500px;
+	position: absolute;
+	z-index: 1;
+}
+#image_1 > img {
+	max-height: 650px;
+}
+.carousel {
+	height: 100%;
+	width: 100%;
+}
+.item {
+	height: 100%;
+	width: 100%;	
+}
+.item > img {
+	width: 90%;
+	height: 90%;
+}
+#carousel_1{
+	margin-top: 11%;
+	height: 20%;
+	margin-left: 2%;
+	transform: rotate(4deg);
+}
+#carousel_2{
+	margin-top: 12.2%;
+	margin-left: 3.5%;
+}
+#carousel_3{
+	margin-top: 12%;
+	margin-left: 3%;
+	transform: rotate(4deg);
+}
+#carousel_4{
+	margin-top: 9%;
+	margin-left: 2%;
+	transform: rotate(-10deg);
+}
+.carousel-inner {
+	height: 100%;
+	width: 100%;
+}
+#middle_page {
+	padding-top: 5%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+#middle_page > .accroche{
+	text-align: center;
+	font-family: 'Dancing Script';
+	font-size: 60px;
+}
+#accroche_h1{
+	margin-left: 10%;
+}
+div.article {
+	display: inline-block;
+	font-family: cursive;
+	font-size: 20px;
+	padding: 5px;
+	padding-bottom: 55px;
+	height: 20%;
+	width: 30%;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+#article_1{
+	margin-left: 10%;
+	margin-top: 3%;
+}
+#article_2{
+	margin-top: 3%;
+	margin-left: 15%;
+}
+img.article {
+	width: 100%;
+	height: 300px;
+}
